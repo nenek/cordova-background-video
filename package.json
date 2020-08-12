@@ -1,11 +1,32 @@
 {
-  "name": "cordova-background-video",
-  "version": "1.0.16",
-  "description": "A simple Cordova/Phonegap plugin to capture video and preview background affecting app functionality.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "git+https://github.com/nenek/backgroundvideo.git",
+  "_id": "cordova-background-video@1.0.16",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-background-video",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/nenek/backgroundvideo.git",
+    "rawSpec": "git+https://github.com/nenek/backgroundvideo.git",
+    "saveSpec": "git+https://github.com/nenek/backgroundvideo.git",
+    "fetchSpec": "https://github.com/nenek/backgroundvideo.git",
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/nenek/backgroundvideo.git#d21af0c2ae9bd5a8228f194fd0266d9daee42612",
+  "_spec": "git+https://github.com/nenek/backgroundvideo.git",
+  "_where": "/Users/nenek/Documents/WORK/REPO/goodOne/d5m",
+  "author": {
+    "name": "nenek"
+  },
+  "bugs": {
+    "url": "https://github.com/nenek/cordova-background-video/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-background-video",
     "platforms": [
@@ -13,6 +34,9 @@
       "ios"
     ]
   },
+  "deprecated": false,
+  "description": "A simple Cordova/Phonegap plugin to capture video and preview background affecting app functionality.",
+  "homepage": "https://github.com/nenek/cordova-background-video#readme",
   "keywords": [
     "video",
     "background",
@@ -24,14 +48,15 @@
     "cordova-android",
     "cordova-ios"
   ],
+  "license": "GPL3",
+  "main": "index.js",
+  "name": "cordova-background-video",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mlingos/cordova-background-video.git"
+    "url": "git+https://github.com/nenek/cordova-background-video.git"
   },
-  "author": "mlingos",
-  "license": "GPL3",
-  "bugs": {
-    "url": "https://github.com/mlingos/cordova-background-video/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/mlingos/cordova-background-video#readme"
+  "version": "1.0.16"
 }
